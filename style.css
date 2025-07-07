@@ -4,8 +4,41 @@
 	box-sizing: border-box;
 }
 
-h2 {
-	text-align: center;
-	padding: 30px 0;
-	font-size: 3em;
+.container {
+	max-width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+.menu-area {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-logo a {
+	text-decoration: none;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.menu-list ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.menu-list ul li a {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+
+.menu-list ul li a:hover {
+	text-decoration: underline;
 }
