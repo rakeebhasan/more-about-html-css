@@ -42,3 +42,50 @@
 .menu-list ul li a:hover {
 	text-decoration: underline;
 }
+
+/* Hero Area CSS HERE */
+.hero-area {
+	padding: 120px 0;
+}
+.hero-wrpper {
+	display: flex;
+	align-items: center;
+}
+
+.hero-desc-card {
+	width: 60%;
+}
+
+.hero-img-card {
+	width: 40%;
+}
+
+.hero-img-card img {
+	width: 100%;
+}
+
+.hero-desc-card h1 {
+	font-size: 55px;
+	text-transform: capitalize;
+}
+
+.hero-desc-card h2 {
+	text-transform: capitalize;
+	font-size: 32px;
+}
+
+.hero-desc-card p {
+	margin-top: 20px;
+	font-size: 20px;
+	padding-right: 60px;
+	text-align: justify;
+}
+
+.hero-desc-card button {
+	padding: 15px 30px;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: 30px;
+}
